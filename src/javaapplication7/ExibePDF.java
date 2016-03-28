@@ -58,6 +58,7 @@ public class ExibePDF{
                         "can't open file mother fucker!",
                         "Erro", JOptionPane.ERROR_MESSAGE);
                         System.exit(0);
+                        System.out.println("Fucking Jas");
 		}
 	}
 }
