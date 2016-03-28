@@ -37,8 +37,8 @@ public class ExibePDF{
                          //viewer.execMenuItem(ViewerCommand.NextPage_K);
                         viewer.execMenuItem(ViewerCommand.FitPage_K);
                         // viewer.execMenuItem(ViewerCommand.PrevPage_K);
-
-			viewer.setProperty("Default_Page_Layout", "SinglePage");
+                        System.out.printf("55555");
+                        viewer.setProperty("Default_Page_Layout", "SinglePage");
 			viewer.setProperty("Default_Zoom_Type", "FitPage");
 			viewer.setProperty("Default_Magnification", "100");
                         viewer.setProperty("Default_page_open","NextPage");
