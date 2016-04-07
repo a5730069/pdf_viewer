@@ -10,7 +10,7 @@ public class ExibePDF{
 	void main(String args){
 		InputStream input;
 		Viewer viewer;
-		JFrame frame = new JFrame("PDF viewer");
+		JFrame frame = new JFrame("PDF viewer 555555");
 		frame.setLayout(new BorderLayout());
 		try{
 			viewer = new Viewer();
