@@ -55,7 +55,7 @@ public class ExibePDF{
 		}
 		catch(Exception e){
 			JOptionPane.showMessageDialog(null,
-                        "can't open file mother fucker!",
+                        "can't open file ",
                         "Erro", JOptionPane.ERROR_MESSAGE);
                         System.exit(0);
                         
